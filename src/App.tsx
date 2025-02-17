@@ -1,6 +1,7 @@
 import reactLogo from "./assets/react.svg";
 // import RecipesOldWay from "./components/recipesOldWay";
-import RecipesActionsWay from "./components/recipesActionsWay";
+import {LoginForm} from "./components/LoginForm";
+// import RecipesActionsWay from "./components/recipesActionsWay";
 
 function App() {
   return (
@@ -12,17 +13,18 @@ function App() {
       </div>
       <h1 style={{ marginTop: 0, marginBottom: "18px" }}>React 19</h1>
       <h2 style={{ margin: 0 }}>
-        {/* <a
+        <a
           href="https://www.youtube.com/@SimpleFrontendUA"
           target="_blank"
           style={{ color: "#E464C1" }}
         > 
           Простий Фронтенд
-        </a> */}
+        </a>
       </h2>
       <div className="card">
         {/* <RecipesOldWay /> */}
-        <RecipesActionsWay />
+        {/* <RecipesActionsWay /> */}
+        <LoginForm/>
       </div>
     </>
   );

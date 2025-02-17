@@ -65,4 +65,28 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-18 {
+  margin-bottom: 18px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.button {
+  background-color: #f4a7e4;
+  color: #fff;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
 }

@@ -1,7 +1,8 @@
 import reactLogo from "./assets/react.svg";
 // import RecipesOldWay from "./components/recipesOldWay";
-import {LoginForm} from "./components/LoginForm";
+// import {LoginForm} from "./components/LoginForm";
 // import RecipesActionsWay from "./components/recipesActionsWay";
+import Messages from "./components/Massages";
 
 function App() {
   return (
@@ -17,14 +18,15 @@ function App() {
           href="https://www.youtube.com/@SimpleFrontendUA"
           target="_blank"
           style={{ color: "#E464C1" }}
-        > 
+        >
           Простий Фронтенд
         </a>
       </h2>
       <div className="card">
         {/* <RecipesOldWay /> */}
         {/* <RecipesActionsWay /> */}
-        <LoginForm/>
+        {/* <LoginForm/> */}
+        <Messages />
       </div>
     </>
   );

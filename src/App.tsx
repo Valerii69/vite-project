@@ -1,8 +1,8 @@
 import reactLogo from "./assets/react.svg";
 // import RecipesOldWay from "./components/recipesOldWay";
-// import {LoginForm} from "./components/LoginForm";
+import {LoginForm} from "./components/LoginForm";
 // import RecipesActionsWay from "./components/recipesActionsWay";
-import Messages from "./components/Massages";
+// import Messages from "./components/Massages";
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
       <div className="card">
         {/* <RecipesOldWay /> */}
         {/* <RecipesActionsWay /> */}
-        {/* <LoginForm/> */}
-        <Messages />
+        <LoginForm/>
+        {/* <Messages /> */}
       </div>
     </>
   );

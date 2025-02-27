@@ -5,7 +5,7 @@ import { InputComponent } from "./InputComponent";
 export function LoginForm() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const [error, submitAction, isPending] = useActionState(
+  const [error, submitAction, ] = useActionState(
     async (_: unknown, formData: FormData) => {
       setIsLoggedIn(false);
       const response = await fetch("/api/auth/login", {
